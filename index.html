@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENEM - Exame Nacional do Ensino Médio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#introducao"><i class="fas fa-home"></i> Introdução</a></li>
+                <li><a href="#historia"><i class="fas fa-history"></i> História</a></li>
+                <li><a href="#estrutura"><i class="fas fa-book"></i> Estrutura</a></li>
+                <li><a href="#funcionamento"><i class="fas fa-cogs"></i> Funcionamento</a></li>
+                <li><a href="#notas"><i class="fas fa-chart-bar"></i> Notas</a></li>
+                <li><a href="#conclusao"><i class="fas fa-flag-checkered"></i> Conclusão</a></li>
+                <li><a href="#quiz-section"><i class="fas fa-question-circle"></i> Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introducao" class="animate">
+            <h1>ENEM - Exame Nacional do Ensino Médio</h1>
+            <p>O ENEM é a principal porta de entrada para o ensino superior no Brasil, avaliando o desempenho escolar dos estudantes ao término da educação básica.</p>
+            <div class="estatisticas">
+                <div class="stat-card">
+                    <i class="fas fa-users fa-2x" style="color: var(--accent)"></i>
+                    <div class="stat-number" data-target="3900000">0</div>
+                    <p>Participantes em 2024</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-university fa-2x" style="color: var(--accent-secondary)"></i>
+                    <div class="stat-number" data-target="1500">0</div>
+                    <p>Instituições Participantes</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-graduation-cap fa-2x" style="color: var(--neon)"></i>
+                    <div class="stat-number" data-target="95">0</div>
+                    <p>Taxa de Aprovação (%)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia" class="animate animate-delay-1">
+            <h2>História do ENEM</h2>
+            <div class="card">
+                <h3><i class="fas fa-landmark"></i> Origem e Evolução</h3>
+                <p>O ENEM surgiu em 1998 como parte das reformas educacionais promovidas pelo Ministério da Educação. Inicialmente voluntário e com objetivo diagnóstico, o exame transformou-se na principal porta de entrada para o ensino superior no Brasil.</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>1998</h3>
+                    <p>Criação do ENEM com apenas 157 mil participantes</p>
+                    <ul>
+                        <li>63 questões interdisciplinares</li>
+                        <li>Prova em um único dia</li>
+                        <li>Caráter voluntário</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2004</h3>
+                    <p>Criação do ProUni</p>
+                    <ul>
+                        <li>ENEM passa a ser critério para bolsas de estudo</li>
+                        <li>Mais de 1,5 milhão de participantes</li>
+                        <li>Expansão do acesso ao ensino superior</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2009</h3>
+                    <p>Reforma Estrutural do Exame</p>
+                    <ul>
+                        <li>Novo formato com 180 questões</li>
+                        <li>Divisão em áreas do conhecimento</li>
+                        <li>Criação da TRI (Teoria de Resposta ao Item)</li>
+                        <li>Prova em dois dias</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2010</h3>
+                    <p>Implementação do SISU</p>
+                    <ul>
+                        <li>Sistema unificado de seleção</li>
+                        <li>Substituição dos vestibulares tradicionais</li>
+                        <li>Mobilidade nacional para estudantes</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2014</h3>
+                    <p>Internacionalização</p>
+                    <ul>
+                        <li>Aceito por universidades portuguesas</li>
+                        <li>Certificação do ensino médio</li>
+                        <li>Mais de 8,7 milhões de inscritos</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2020</h3>
+                    <p>Adaptação à Pandemia</p>
+                    <ul>
+                        <li>Versão digital (ENEM Digital)</li>
+                        <li>Protocolos sanitários</li>
+                        <li>Flexibilização de datas</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2024</h3>
+                    <p>ENEM 2.0</p>
+                    <ul>
+                        <li>Novo formato híbrido</li>
+                        <li>Inteligência artificial na correção</li>
+                        <li>Provas adaptativas</li>
+                        <li>Resultados mais rápidos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3><i class="fas fa-chart-line"></i> Impacto e Números</h3>
+                <div class="estatisticas">
+                    <div class="stat-card">
+                        <i class="fas fa-users-line fa-2x" style="color: var(--accent)"></i>
+                        <div class="stat-number" data-target="157000">0</div>
+                        <p>Participantes em 1998</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-user-graduate fa-2x" style="color: var(--accent-secondary)"></i>
+                        <div class="stat-number" data-target="3900000">0</div>
+                        <p>Participantes em 2024</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-school fa-2x" style="color: var(--neon)"></i>
+                        <div class="stat-number" data-target="25">0</div>
+                        <p>Anos de História</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3><i class="fas fa-trophy"></i> Conquistas e Reconhecimento</h3>
+                <ul>
+                    <li><i class="fas fa-star"></i> Maior exame educacional do Brasil</li>
+                    <li><i class="fas fa-award"></i> Referência internacional em avaliação</li>
+                    <li><i class="fas fa-handshake"></i> Parceria com mais de 50 universidades portuguesas</li>
+                    <li><i class="fas fa-globe-americas"></i> Modelo para outros países da América Latina</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="estrutura" class="animate animate-delay-2">
+            <h2>Estrutura das Provas</h2>
+            <div class="prova-info">
+                <div class="card" id="dia1Card">
+                    <h3><i class="fas fa-calendar-day"></i> Primeiro Dia</h3>
+                    <ul>
+                        <li><i class="fas fa-language"></i> Linguagens, Códigos e suas Tecnologias</li>
+                        <li><i class="fas fa-pen-fancy"></i> Redação</li>
+                        <li><i class="fas fa-globe"></i> Ciências Humanas e suas Tecnologias</li>
+                    </ul>
+                    <p><i class="fas fa-clock"></i> Duração: 5h30</p>
+                </div>
+                <div class="card" id="dia2Card">
+                    <h3><i class="fas fa-calendar-day"></i> Segundo Dia</h3>
+                    <ul>
+                        <li><i class="fas fa-atom"></i> Ciências da Natureza e suas Tecnologias</li>
+                        <li><i class="fas fa-calculator"></i> Matemática e suas Tecnologias</li>
+                    </ul>
+                    <p><i class="fas fa-clock"></i> Duração: 5h</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="funcionamento" class="animate">
+            <h2>Como Funciona</h2>
+            <div class="card">
+                <h3><i class="fas fa-info-circle"></i> Processo do Exame</h3>
+                <p>O ENEM é aplicado em dois dias, geralmente em novembro. São 180 questões objetivas divididas em quatro áreas do conhecimento, além da redação.</p>
+                <button class="btn" id="saibaMaisBtn"><i class="fas fa-plus-circle"></i> Saiba Mais</button>
+                <div id="saibaMaisContent" style="display: none;">
+                    <ul>
+                        <li>Inscrições: Geralmente entre maio e junho</li>
+                        <li>Taxa: Aproximadamente R$ 85,00 (com possibilidade de isenção)</li>
+                        <li>Documentos necessários: RG e CPF</li>
+                        <li>Local: Definido próximo à data da prova</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="notas" class="animate animate-delay-1">
+            <h2>Uso das Notas</h2>
+            <div class="notas-info">
+                <div class="card">
+                    <h3><i class="fas fa-graduation-cap"></i> Possibilidades</h3>
+                    <ul>
+                        <li><i class="fas fa-university"></i> Ingresso em universidades públicas através do SISU</li>
+                        <li><i class="fas fa-award"></i> Bolsas de estudo pelo PROUNI</li>
+                        <li><i class="fas fa-money-bill-wave"></i> Financiamento estudantil pelo FIES</li>
+                        <li><i class="fas fa-plane"></i> Acesso a universidades portuguesas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusao" class="animate animate-delay-2">
+            <h2>Conclusão</h2>
+            <p>O ENEM representa uma oportunidade única de democratização do acesso ao ensino superior no Brasil, permitindo que estudantes de todo o país concorram a vagas em universidades públicas e privadas de qualidade.</p>
+            <div class="card">
+                <h3><i class="fas fa-lightbulb"></i> Dicas Finais</h3>
+                <ul>
+                    <li>Mantenha uma rotina de estudos</li>
+                    <li>Faça simulados regularmente</li>
+                    <li>Cuide da saúde física e mental</li>
+                    <li>Organize seu material com antecedência</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="quiz-section" class="section-quiz animate">
+            <h2>Teste seus Conhecimentos</h2>
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="quiz-progress">
+                        Questão <span id="current-question">1</span> de <span id="total-questions">5</span>
+                    </div>
+                    <div class="quiz-score">
+                        Pontuação: <span id="score">0</span>
+                    </div>
+                </div>
+                
+                <div class="quiz-content">
+                    <p id="question" class="question-text"></p>
+                    <div class="options-container" id="options">
+                        <!-- Opções serão inseridas via JavaScript -->
+                    </div>
+                </div>
+
+                <div class="quiz-feedback" id="feedback">
+                    <div class="feedback-icon"></div>
+                    <p class="feedback-text"></p>
+                </div>
+
+                <div class="quiz-controls">
+                    <button id="next-btn" class="btn-next" disabled>Próxima Questão</button>
+                    <button id="restart-btn" class="btn-restart" style="display: none;">Tentar Novamente</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabalho desenvolvido para apresentação do 3º ano</p>
+        <div class="social-links">
+            <a href="#" class="btn"><i class="fas fa-download"></i> Download Apresentação</a>
+        </div>
+    </footer>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
